@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- all the elements should be inside the html tag. it is the root element for html-->
+<html lang="en" dir="ltr">
+
+<!--
+The <head> HTML element contains machine-readable information
+(metadata) about the document,
+like its title, scripts, and style sheets.
+-->
+
+<head>
+  <!-- this element represent the metadata that cannot be represent by other elemnts -->
+  <meta charset="utf-8">
+  <!--
+  the document's title that is shown in a Browser's title bar or a page's tab.
+   It only contains text; tags within the element are ignored.
+  -->
+  <title>💗Uday Personal Website</title>
+</head>
+
+<!--
+Body element represents the content of an HTML document.
+There can be only one <body> element in a document.
+-->
+
+<body>
+  <!--
+  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSXanJlp8fSM6vn8JGF8Oym7VnL3GkBA8Xu2QN3TYD3dDzhE8Nc" alt="Uday profile picture">
+  -->
+  <table cellspacing="20">
+    <tr>
+      <!-- image tag we can give url or local saved images in the tag.
+        it have some attributes. alt for if the browser can't able to fetch the images
+        it shows the text -->
+      <td><img src="images/uday.jpg" alt="Uday Profile Picture"> </td>
+      <td>
+        <h1>Udayakumar R</h1>
+        <!--
+          Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines
+          -->
+        <!-- a - anchor tag is used to add the hyperlink and name for the link that one typed before the a tag close -->
+        <p><em>Founder and CTO of the <strong><a href="https://www.appbrewery.co/p/web-development-course-resources">HTML Resourc link</a> Uday personal website</strong>.</em></p>
+        <p>I am currently working as Mechanical Engineer.
+          I love change the domain to Web Development.
+          For that I enrolled the course</p>
+      </td>
+    </tr>
+  </table>
+
+
+
+  <hr>
+  <h3>Education</h3>
+  <!-- "ul"element represents an unordered list of items,
+  typically rendered as a bulleted list. -->
+  <ul>
+    <!-- list of elements inside the ul -->
+    <li>I did my schooling in <a href="https://www.facebook.com/groups/kalaimahal/"> Kalaimahal Matriculation School</a></li>
+    <li>I did my Engineering in <a href="https://www.psvpec.in/">Prince shri Venkateshwara Engineering College</a> </li>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+
+  <table cellspacing="10">
+    <!-- table head -->
+    <thead>
+      <!-- table row only two cells horizontally -->
+      <tr>
+        <th>Date</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2015 to 2018</td>
+        <td>Junior CAE Engineer at Marutee Design and Engineering Pvt Ltm.</td>
+      </tr>
+      <tr>
+        <td>2018 to Present</td>
+        <td>IT Analyst in Tata Consultanct Service Pvt Ltm.</td>
+      </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+
+  </table>
+  <hr>
+  <h3>Skils</h3>
+  <table cellspacing="10">
+    <tr>
+      <td>Typing</td>
+      <td>&#128151;&#128151;&#128151;&#128151;</td>
+    </tr>
+    <tr>
+      <td>Cooking</td>
+      <td>&#128151;&#128151;&#128151;</td>
+    </tr>
+    <tr>
+      <td>Reading</td>
+      <td>&#128151;&#128151;&#128151;&#128151;</td>
+    </tr>
+    <tr>
+      <td>Listening</td>
+      <td>&#128151;&#128151;&#128151;&#128151;&#128151;</td>
+    </tr>
+  </table>
+  <hr>
+  <!-- we can add separate pages by creating the file in same path or we can provide path to browser to find by using anchor tag   -->
+  <a href="hobbies.html">My Hobbies</a>
+  <br>
+  <a href="contact.html">Contact Me</a>
+</body>
+
+</html>
